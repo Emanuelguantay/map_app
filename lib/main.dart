@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:maps_app/src/ui/screen/home_page.dart';
+import 'package:maps_app/src/ui/screen/map_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(title: 'Flutter Demo Home Page'),
+      home: MapPage(),
     );
   }
 }
